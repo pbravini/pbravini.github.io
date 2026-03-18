@@ -1,211 +1,84 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="pt-BR" class="scroll-smooth">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="Portfólio de Pedro Bravini" />
-  <meta name="author" content="Pedro Bravini" />
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" />
-
-  <title>Pedro Bravini | Business Intelligence</title>
-
-  <link rel="stylesheet" href="reflux/bootstrap/css/bootstrap.min.css" />
-
-  <link rel="stylesheet" href="fontawesome-free-6.7.1-web/css/fontawesome.css" />
-  <link rel="stylesheet" href="fontawesome-free-6.7.1-web/css/brands.css" />
-  <link rel="stylesheet" href="fontawesome-free-6.7.1-web/css/solid.css" />
-  <link rel="stylesheet" href="reflux/css/reflux.css" />
-  <link rel="stylesheet" href="reflux/css/owl.css" />
-  <link rel="stylesheet" href="reflux/css/lightbox.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Bravini | Business Intelligence</title>
+    <meta name="description" content="Especialista em Soluções ArcGIS e Business Intelligence">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+<body class="bg-slate-900 text-slate-300 font-sans antialiased selection:bg-blue-500 selection:text-white">
 
-<body>
-  <div id="page-wraper">
-    <div class="responsive-nav">
-      <div class="mobile-header">
-        <div class="mobile-header-content">
-          <i class="fas fa-bars fa-2x" id="menu-toggle"></i>
-          <div class="mobile-header-profile">
-            <span>Pedro Bravini</span>
-            <img src="images/pbravini.jpeg" alt="Foto de perfil de Pedro Bravini" />
-          </div>
+    <header class="min-h-screen flex flex-col justify-center items-center text-center p-6 bg-gradient-to-b from-slate-950 to-slate-900">
+        <img src="images/pbravini.jpeg" alt="Pedro Bravini" class="w-40 h-40 rounded-full border-4 border-blue-500 shadow-xl mb-6 object-cover">
+        <h1 class="text-5xl font-bold text-white mb-2">Pedro Bravini</h1>
+        <h2 class="text-2xl text-blue-400 font-light mb-6">Business Intelligence & Especialista ArcGIS</h2>
+        <p class="max-w-xl text-lg mb-8 leading-relaxed text-slate-400">
+            Apaixonado por tecnologia, meio ambiente e geopolítica, com mais de 8 anos de experiência em análise e produção de dados geográficos, automatização e integração de sistemas.
+        </p>
+        
+        <div class="flex space-x-6">
+            <a href="https://www.linkedin.com/in/pbravini" target="_blank" class="text-3xl text-slate-400 hover:text-blue-500 transition-colors">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/pbravini" target="_blank" class="text-3xl text-slate-400 hover:text-white transition-colors">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="#contato" class="text-3xl text-slate-400 hover:text-blue-400 transition-colors">
+                <i class="fas fa-envelope"></i>
+            </a>
         </div>
-      </div>
-      <div id="menu" class="menu">
-        <i class="fas fa-xmark fa-2x" id="menu-close"></i>
-        <div class="container">
-          <div class="image">
-            <img src="images/pbravini.jpeg" alt="Foto de perfil de Pedro Bravini" />
-          </div>
-          <div class="author-content">
-            <h4>Pedro Bravini</h4>
-            <span>Business Intelligence</span>
-          </div>
-          <nav class="main-nav" role="navigation">
-            <ul class="main-menu">
-              <li><a href="#section_about">Sobre mim</a></li>
-              <li><a href="#section_skills">Skills</a></li>
-              <li><a href="#section_portfolio">Portfólio</a></li>
-              <li><a href="#section_contact">Contato</a></li>
-            </ul>
-          </nav>
-          <div class="social-network">
-            <ul class="soial-icons">
-              <li><a href="https://www.linkedin.com/in/pbravini" target="_blank" title="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
-              <li><a href="https://github.com/pbravini" target="_blank" title="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a></li>
-              <li><a href="#" id="copyEmailButton" title="Copiar email" data-email="seu_email_aqui@exemplo.com"><i class="fas fa-envelope" aria-hidden="true"></i></a></li>
-            </ul>
-            <span id="copyMessage">✅ E-mail copiado para a área de tranferência!</span>
-          </div>
-          <div class="copyright-text">
-            <p>Copyright 2024</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    </header>
 
-    <section class="section-about" data-section="section_about">
-      <div class="container">
-        <div class="section-heading">
-          <h2>Sobre mim</h2>
-          <div class="line-dec"></div>
-          <span>Apaixonado por tecnologia, meio ambiente e geopolítica, com mais de 8 anos de experiência em análise e produção de dados geográficos, automatização e integração de sistemas.</span>
+    <section class="py-20 px-6 max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-white border-b-2 border-blue-500 pb-2 mb-8 inline-block">Sobre mim</h2>
+        <div class="space-y-6 text-lg leading-relaxed">
+            <p>
+                Com uma formação acadêmica em Tecnologia Ambiental e mais de 8 anos de experiência na interseção entre tecnologia e geoprocessamento, atuo como Arquiteto de Negócios focado em integração de sistemas e soluções inteligentes para governos e empresas públicas.
+            </p>
+            <p>
+                Minha trajetória abrange desde o desenvolvimento de arquiteturas computacionais e automação com IoT até projetos robustos em plataformas como ArcGIS. Sou certificado em ArcGIS Desktop e Projetos de Sistemas Web.
+            </p>
         </div>
-        <div class="left-image-post">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="left-image">
-                <img src="reflux/images/resumo-profissional.jpg" alt="Resumo Profissional" />
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="right-text">
-                <h4>Especialista em Soluções ArcGIS para Governos e Empresas Públicas</h4>
-                <p>
-                  Com uma formação acadêmica em Tecnologia Ambiental e mais de 8 anos de experiência na interseção entre tecnologia e geoprocessamento...
-                  <br><br>
-                  Minha trajetória abrange desde o desenvolvimento de arquiteturas computacionais e automação com IoT até projetos robustos em plataformas como ArcGIS.
-                </p>
-                <div class="white-button">
-                  <a href="https://www.linkedin.com/in/pbravini" target="_blank" title="LinkedIn">LinkedIn</a>
+    </section>
+
+    <section class="py-20 px-6 bg-slate-800/50">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-white border-b-2 border-blue-500 pb-2 mb-8 inline-block">Tecnologias</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-blue-500 transition-colors">
+                    <i class="fab fa-python text-3xl text-blue-400 mb-4"></i>
+                    <h3 class="text-xl font-bold text-white mb-2">Python & Web</h3>
+                    <p class="text-sm">Django, FastAPI, Pandas, Scikit Learn, HTML, CSS, JS.</p>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-skills" data-section="section_skills">
-      <div class="container">
-        <div class="section-heading">
-          <h2>Tecnologias que trabalho</h2>
-          <div class="line-dec"></div>
-          <span>Algumas das minhas habilidades e áreas de expertise.</span>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="service-item">
-              <div class="first-service-icon service-icon"></div>
-              <h4>Python & Django</h4>
-              <p>Automação e desenvolvimento backend com frameworks modernos.</p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="service-item">
-              <div class="second-service-icon service-icon"></div>
-              <h4>Geoprocessamento</h4>
-              <p>Especialista em ArcGIS, QGIS e Google Earth Engine.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-portfolio" data-section="section_portfolio">
-      <div class="container">
-        <div class="section-heading">
-          <h2>Portfólio</h2>
-          <div class="line-dec"></div>
-          <span>Veja alguns exemplos dos meus trabalhos.</span>
-        </div>
-        <div class="row">
-          <div class="isotope-wrapper">
-            <div class="isotope-box">
-              <div class="isotope-item" data-type="nature">
-                <figure class="snip1321">
-                  <img src="reflux/images/portfolio-01.jpg" alt="Projeto 1" />
-                  <figcaption>
-                    <a href="reflux/images/portfolio-01.jpg" data-lightbox="image-1" data-title="Caption"><i class="fa fa-search"></i></a>
-                    <h4>Projeto 1</h4>
-                    <span>Descrição do projeto</span>
-                  </figcaption>
-                </figure>
-              </div>
-              </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-contact" data-section="section_contact">
-      <div class="container">
-        <div class="section-heading">
-          <h2>Fale comigo</h2>
-          <div class="line-dec"></div>
-          <span>Sinta-se à vontade para entrar em contato comigo para quaisquer dúvidas ou colaborações.</span>
-        </div>
-        <div class="row">
-          <div class="right-content">
-            <div class="container">
-              <form id="contact" action="https://formspree.io/f/SEU_ID_AQUI" method="post">
-                <div class="row">
-                  <div class="col-md-6">
-                    <fieldset>
-                      <input name="name" type="text" class="form-control" id="name" placeholder="Nome..." required="" />
-                    </fieldset>
-                  </div>
-                  <div class="col-md-6">
-                    <fieldset>
-                      <input name="email" type="email" class="form-control" id="email" placeholder="E-mail..." required="" />
-                    </fieldset>
-                  </div>
-                  <div class="col-md-12">
-                    <fieldset>
-                      <input name="subject" type="text" class="form-control" id="subject" placeholder="Gostaria de falar sobre..." required="" />
-                    </fieldset>
-                  </div>
-                  <div class="col-md-12">
-                    <fieldset>
-                      <textarea name="message" rows="6" class="form-control" id="message" placeholder="Escreva aqui sua mensagem..." required=""></textarea>
-                    </fieldset>
-                  </div>
-                  <div class="col-md-12">
-                    <fieldset>
-                      <button type="submit" id="form-submit" class="button">Enviar mensagem</button>
-                    </fieldset>
-                  </div>
+                <div class="bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-blue-500 transition-colors">
+                    <i class="fas fa-globe-americas text-3xl text-blue-400 mb-4"></i>
+                    <h3 class="text-xl font-bold text-white mb-2">Geoprocessamento</h3>
+                    <p class="text-sm">ArcGIS Enterprise/Pro, QGIS, Google Earth Engine, PostGIS.</p>
                 </div>
-              </form>
+                <div class="bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-blue-500 transition-colors">
+                    <i class="fas fa-server text-3xl text-blue-400 mb-4"></i>
+                    <h3 class="text-xl font-bold text-white mb-2">Infraestrutura</h3>
+                    <p class="text-sm">AWS, Azure, PostgreSQL, MySQL, Git, GitHub.</p>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
-  </div>
 
-  <script src="reflux/jquery/jquery.min.js"></script>
-  <script src="reflux/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="reflux/js/isotope.min.js"></script>
-  <script src="reflux/js/owl-carousel.js"></script>
-  <script src="reflux/js/lightbox.js"></script>
-  <script src="reflux/js/custom.js"></script>
-  <script src="reflux/js/transitions.js"></script>
-  <script src="reflux/js/copyEmail.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-  <script src="reflux/js/background.js"></script>
+    <section id="contato" class="py-20 px-6 max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold text-white mb-6">Vamos conversar?</h2>
+        <p class="text-lg mb-8">Sinta-se à vontade para entrar em contato comigo para projetos ou colaborações.</p>
+        <a href="mailto:seu_email_aqui@exemplo.com" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition-colors duration-300">
+            Me envie um e-mail
+        </a>
+    </section>
+
+    <footer class="py-8 text-center text-sm border-t border-slate-800">
+        <p>&copy; 2024 Pedro Bravini. Todos os direitos reservados.</p>
+    </footer>
+
 </body>
-
 </html>
